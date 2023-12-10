@@ -25,7 +25,7 @@ const Movie = ({ movie }) => {
        pt-5 flex justify-start items-center overflow-hidden
        bg-sate-300 w-full text-start text-teal-500"
       >
-        {movie.genre_ids}
+        {movie.name}
       </h1>
       <p className="text-slate-400">{movie.first_air_date}</p>
     </motion.div>
